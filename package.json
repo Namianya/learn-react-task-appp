@@ -2,13 +2,19 @@
   "name": "react-task-tracker",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "postcss": "7.0.36",
+    "glob-parent": "^5.1.2",
+    "css-what": "^5.0.1",
+    "normalize-url": "^4.5.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-icons": "^4.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -17,12 +23,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
